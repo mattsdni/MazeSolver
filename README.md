@@ -6,7 +6,7 @@ A program to solve mazes with a queue
 
 ## Solving Process
 
-1. A Queue of spaces to explore within the maze keeps track of what needs to happen.
+1. A Queue of spaces is used to keep track of what has been done.
 2. Spaces are taken out of the queue one at a time and marked as visited.
 3. The current space is checked to see if it is the goal.
 4. If not, it looks at all neighboring spaces and adds any that have not yet been visited to the queue. 
