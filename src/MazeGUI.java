@@ -133,6 +133,8 @@ public class MazeGUI extends JPanel implements ActionListener, ChangeListener {
 	public void actionPerformed(ActionEvent e) {
 		if( e.getSource() == loadButton || e.getSource() == mazeFileTF ) {
 			infoLabel.setText("Loading maze: " + mazeFileTF.getText());
+            if (!(mazeFileTF.getText().contains(".txt")))
+                mazeFileTF.setText(mazeFileTF.getText()+".txt");
 			try {
 				maze = new Maze(mazeFileTF.getText());
 				mazeView.setMaze(maze);

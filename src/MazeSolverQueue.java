@@ -1,4 +1,15 @@
-
+//Name: Matt Dennie
+//Assignment: 5
+//Title: Maze Solver
+//Course: CSCE 270
+//Lab Section: 11:50
+//Semester: Spring, 2015
+//Instructor: Laurie Murphy
+// Date: 3/11/2015
+//Sources consulted: any books, individuals, etc consulted
+//Program description: solves a maze
+//Known Bugs: none
+//Creativity: 1. visual queue appended to maze status text field. 2. '.txt' not required for maze input (maze1 can be typed instead)
 public class MazeSolverQueue implements MazeGUIListener
 {
 	private MazeGUI gui;
